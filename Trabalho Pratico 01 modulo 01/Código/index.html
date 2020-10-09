@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabalho Prático modulo 01</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="divBody">
+    <h1>Misturas de Cores</h1>
+    <form>
+      <p>
+        <label>(R) Vermelho:</label>
+        <input class="inputRange" type="range" id="inputR" min="0" max="255" value="255" />
+        <input class="inputText" type=" 8" disabled id="inputValorR" />
+      </p>
+      <p>
+        <label>(G) Verde:</label>
+        <input class="inputRange" type="range" id="inputG" min="0" max="255" value="255" />
+        <input class="inputText" type="text" disabled id="inputValorG" />
+      </p>
+      <p>
+        <label>(B) Azul:</label>
+        <input class="inputRange" type="range" id="inputB" min="0" max="255" value="255" />
+        <input class="inputText" type="text" disabled id="inputValorBS" />
+      </p>
+    </form>
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+    <script src="./js/script.js"></script>
+  </div>
+</body>
+
+</html>

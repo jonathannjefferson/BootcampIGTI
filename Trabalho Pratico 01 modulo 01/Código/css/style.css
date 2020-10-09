@@ -1,0 +1,28 @@
+.divBody {
+
+  margin: 150px 50px 50px 550px;
+  padding: 15pt;
+  width: 500px;
+  text-align: center;
+  background-color: cyan;
+}
+
+label {
+  width: 150px;
+  float: left;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+.inputText {
+  width: 50px;
+}
+
+#resultado {
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+}

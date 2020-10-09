@@ -1,0 +1,60 @@
+li {
+  list-style: none;
+}
+
+img {
+  border-radius: 50%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+#busca {
+  display: flex;
+  width: 40vw;
+  margin-left: 30vw;
+  align-items: center;
+}
+
+#btn-pesquisa {
+  margin-left: 1rem;
+  text-align: center;
+}
+
+#results {
+  width: 40vw;
+  border: #ccc 1px solid;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  margin-left: 3rem;
+}
+
+#stats {
+  width: 40vw;
+  height: 25rem;
+  float: right;
+  padding-left: 1rem;
+  margin-right: 3rem;
+  border: #ccc 1px solid;
+  border-radius: 0.3rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user img {
+  margin-right: 10px;
+}
+
+.waves-effect {
+  overflow: unset;
+}
